@@ -14,23 +14,25 @@ header {
     flex-flow: row nowrap;
     align-items: flex-end;
     justify-content: flex-end;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
 }
 
 nav {
     z-index: 2;
     float: right;
     height: 40px;
-    margin-right: 100px;
-    background: pink;
+    /* margin-right: 100px; */
 }
 
 #drop-down {
     display: block;
     width: 200px;
-    height: 172px;
+    height: 129px;
     overflow: hidden;
+    background: #2C92F7;
     
-    background: pink;
     list-style: none;
     text-align: center;
     border-bottom-left-radius: 5%;
@@ -75,4 +77,35 @@ nav {
 
 main {
     z-index: 1;
+    border: 3px red solid;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
 }
+
+.name-icon {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* SECTION Desktop / Laptop Devices */
+
+@media screen and (min-width: 1000px) {
+
+    main {
+        width: 1000px;
+    }
+
+    nav {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    #drop-down {
+        float: right;
+    }
+
+}
+
+/* SECTION iPhone Devices */
+
+
