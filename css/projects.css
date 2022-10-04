@@ -1,0 +1,43 @@
+
+main {
+    height: 200vh;
+}
+
+#outer-container {
+    border: 10px black groove;
+    margin: 10px;
+    height: calc(200vh - 100px);
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.project {
+    height: calc(100vh - 100px);
+    margin: 10px;
+    border: red solid 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#project1 {
+}
+
+#project2 {
+}
+
+.image-placeholder {
+    border: 3px blue solid;
+    height: 95%;
+    width: 45%;
+}
+
+.info-container {
+    border: 3px blue solid;
+    height: 95%;
+    width: 45%;
+
+}
