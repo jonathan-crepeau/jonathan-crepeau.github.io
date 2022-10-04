@@ -1,14 +1,22 @@
 
 body {
-    background: url(/images/opacity-option1.jpg);
+    background: url(/images/pinkCloud.jpeg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
 main {
+
     position: relative;
 }
+
+/* #cover {
+    height: calc(100vh - 100px);
+    width: 100%;
+
+    position: relative;
+} */
 
 .name-display {
     font-family: 'Josefin Sans', sans-serif;
@@ -50,7 +58,7 @@ main {
 }
 
 #first-name:hover, #last-name:hover {
-    color: #84CFF0;
+    color: #3ADBE0;
 }
 
 @media screen and (max-width: 860px) {

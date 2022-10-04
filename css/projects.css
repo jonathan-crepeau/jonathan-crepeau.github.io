@@ -25,10 +25,12 @@
 
 img {
     max-height: 600px;
+    width: 50%;
 }
 
 .info-container {
     width: 50%;
+    padding: 10px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
