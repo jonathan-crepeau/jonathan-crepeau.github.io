@@ -22,6 +22,9 @@ main {
     position: absolute;
     top: 200px;
     left: 50px;
+    transition: color 0.7s ease;
+    -webkit-transition: color 0.7s ease;
+    -moz-transition: color 0.7s ease;
 }
 
 #first-name-shadow {
@@ -36,6 +39,7 @@ main {
     position: absolute;
     top: 350px;
     left: 270px;
+    transition: color 0.7s ease;
 }
 
 #last-name-shadow {
@@ -43,6 +47,10 @@ main {
     position: absolute;
     top: 2px;
     left: 4px;
+}
+
+#first-name:hover, #last-name:hover {
+    color: #84CFF0;
 }
 
 @media screen and (max-width: 860px) {

@@ -49,7 +49,7 @@ nav {
 }
 
 #drop-down li {
-    border-bottom: 3px black solid;
+    border-bottom: 3px solid #000;
 }
 
 #drop-down li a {
@@ -58,6 +58,13 @@ nav {
     line-height: 40px;
     text-decoration: none;
     color: #fff;
+    transition: color 0.15s ease;
+    -webkit-transition: color 0.15s ease;
+    -moz-transition: color 0.15s ease;
+}
+
+#drop-down li a:hover {
+    color: #84CFF0;
 }
 
 #drop-down.closed li:first-child a:after {
