@@ -1,43 +1,56 @@
 
-main {
+/* main {
     height: 200vh;
-}
+} */
 
 #outer-container {
-    border: 10px black groove;
-    margin: 10px;
-    height: calc(200vh - 100px);
-    width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+
+    border: 10px black groove;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .project {
-    height: calc(100vh - 100px);
-    margin: 10px;
-    border: red solid 5px;
+    font-family: 'Lato', sans-serif;
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 #project1 {
+    margin-bottom: 50px;
 }
 
-#project2 {
-}
-
-.image-placeholder {
-    border: 3px blue solid;
-    height: 95%;
-    width: 45%;
+img {
+    max-height: 600px;
 }
 
 .info-container {
-    border: 3px blue solid;
-    height: 95%;
-    width: 45%;
+    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
 
+.info-container h2 {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.gutters {
+    width: 100%;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 20px 0 20px 0;
+}
+
+.descriptor {
+    font-size: 1.15rem;
 }
