@@ -54,3 +54,23 @@ img {
 .descriptor {
     font-size: 1.15rem;
 }
+
+@media screen and (max-width: 860px) {
+
+    .project {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    #project2 {
+        margin-top: 100px;
+    }
+    .info-container {
+        width: 100%;
+    }
+
+    img {
+        max-width: 464px;
+    }
+
+}
