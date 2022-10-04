@@ -78,6 +78,7 @@ img {
 
     img {
         max-width: 310px;
+        min-width: 300px;
     }
 
 }

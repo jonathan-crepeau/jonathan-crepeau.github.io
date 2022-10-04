@@ -11,13 +11,6 @@ main {
     position: relative;
 }
 
-/* #cover {
-    height: calc(100vh - 100px);
-    width: 100%;
-
-    position: relative;
-} */
-
 .name-display {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 7rem;
