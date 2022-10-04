@@ -92,7 +92,6 @@ main {
 }
 
 /* SECTION Desktop / Laptop Devices */
-
 @media screen and (min-width: 1000px) {
 
     main {
@@ -111,5 +110,12 @@ main {
 }
 
 /* SECTION iPhone Devices */
+@media screen and (max-width: 860px) {
+
+    header {
+        height: 50px;
+    }
+    
+}
 
 
