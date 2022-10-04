@@ -65,8 +65,13 @@ img {
     #project2 {
         margin-top: 100px;
     }
+
     .info-container {
         width: 100%;
+    }
+
+    .gutters {
+        text-align: center;
     }
 
     img {
