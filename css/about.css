@@ -1,0 +1,54 @@
+#bio-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    border: 10px black groove;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#bio-container p {
+    margin: 50px;
+    font-size: 20px;
+    text-justify: auto;
+}
+
+.large-name {
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+img {
+    height: 400px;
+    width: auto;
+    margin: 50px;
+    border: 5px solid #000;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 860px) {
+
+    #bio-container {
+        flex-flow: column nowrap;
+    }
+
+    #bio-container p {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .large-name {
+        font-size: 20px;
+    }
+
+    img {
+        height: 400px;
+        width: auto;
+        margin: 10px;
+    }
+
+}

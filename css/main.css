@@ -89,6 +89,7 @@ main {
     height: calc(100vh - 100px);
     width: 100%;
     margin: 0 auto;
+    font-family: "Lato", sans-serif;
 }
 
 /* SECTION Desktop / Laptop Devices */
@@ -115,7 +116,7 @@ main {
     header {
         height: 50px;
     }
-    
+
 }
 
 

@@ -1,11 +1,7 @@
-
-/* main {
-    height: 200vh;
-} */
-
 #outer-container {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
 
     border: 10px black groove;
     border-radius: 20px;
@@ -17,20 +13,27 @@
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-flow: row nowrap;
+    margin: 20px;
 }
 
-#project1 {
-    margin-bottom: 50px;
-}
+/* #project1 {
+    margin-bottom: 100px;
+} */
 
 img {
-    max-height: 600px;
-    width: 50%;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
+
+span {
+    border-bottom: 2px solid #000;
+    width: 70%;
 }
 
 .info-container {
     width: 50%;
-    padding: 10px;
+    margin: 20px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -50,6 +53,7 @@ img {
     border-top: 1px black solid;
     font-weight: 700;
     font-size: 1.5rem;
+    text-align: center;
     margin: 20px 0 20px 0;
 }
 
@@ -62,23 +66,26 @@ img {
     .project {
         flex-flow: column nowrap;
         align-items: center;
-    }
-
-    #project2 {
-        margin-top: 100px;
-    }
-
-    .info-container {
-        width: 100%;
-    }
-
-    .gutters {
-        text-align: center;
+        margin: 0;
     }
 
     img {
         max-width: 310px;
-        min-width: 300px;
+        min-width: 300px; 
     }
+
+    .info-container {
+        width: 90%;
+        text-justify: auto;
+    }
+
+    #project1 {
+        margin-bottom: 40px;
+    }
+
+    #project2 {
+        margin-top: 40px;
+    }
+
 
 }
