@@ -1,12 +1,21 @@
+#outer-container {
+    border: 10px black groove;
+    border-radius: 20px;
+
+    margin: 10px;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center
+}
+
 #bio-container {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-
-    border: 10px black groove;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px 10px 10px;
+    padding: 0 10px 10px 10px;
 }
 
 #bio-container p {
@@ -30,7 +39,35 @@ img {
     border-radius: 5%;
 }
 
+#icon-container {
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#icon-container a {
+    color: blue;
+}
+
+.divider-line {
+    margin-top: 40px;
+    border-bottom: 2px solid #000;
+    width: 70%;
+}
+
+
+
 @media screen and (max-width: 860px) {
+
+    #icon-container {
+        width: 70%;
+    }
+
+    .divider-line {
+        margin: 30px 0 20px 0;
+    }
 
     #bio-container {
         flex-flow: column nowrap;
